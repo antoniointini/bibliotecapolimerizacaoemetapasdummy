@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapas.csproj": {}
+    "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj": {}
   },
   "projects": {
-    "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapas.csproj": {
+    "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapas.csproj",
+        "projectUniqueName": "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj",
         "projectName": "BibliotecaPolimerizacaoEmEtapas",
-        "projectPath": "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapas.csproj",
+        "projectPath": "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj",
         "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapasDummy\\obj\\",
+        "outputPath": "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",

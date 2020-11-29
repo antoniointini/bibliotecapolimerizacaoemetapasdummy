@@ -50,8 +50,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BibliotecaPolimerizacaoEmEtapasDummy\BibliotecaPolimerizacaoEmEtapas.csproj">
-      <Project>{258e325f-0b09-457b-801d-14d6ac3b823e}</Project>
+    <ProjectReference Include="..\BibliotecaPolimerizacaoEmEtapas\BibliotecaPolimerizacaoEmEtapas.csproj">
+      <Project>{6a14ebea-0b7e-401e-a67c-da638899cf42}</Project>
       <Name>BibliotecaPolimerizacaoEmEtapas</Name>
     </ProjectReference>
   </ItemGroup>
