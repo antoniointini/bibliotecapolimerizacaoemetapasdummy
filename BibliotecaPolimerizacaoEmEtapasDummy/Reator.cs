@@ -1,8 +1,9 @@
-﻿using BibliotecaPolimerizacaoEmEtapasDummy.Ferramentas;
-using BibliotecaPolimerizacaoEmEtapasDummy.Recursos;
+﻿
+using BibliotecaPolimerizacaoEmEtapas;
+using BibliotecaPolimerizacaoEmEtapas.Recursos;
 using System.Collections.Generic;
 
-namespace BibliotecaPolimerizacaoEmEtapasDummy
+namespace BibliotecaPolimerizacaoEmEtapas
 {
     public static class Reator
     {

@@ -1,4 +1,4 @@
-﻿namespace BibliotecaPolimerizacaoEmEtapasDummy.Recursos
+﻿namespace BibliotecaPolimerizacaoEmEtapas.Recursos
 {
     public class ObjetivosOtimizacao
     {

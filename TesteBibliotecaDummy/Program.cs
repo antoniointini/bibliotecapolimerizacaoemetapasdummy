@@ -1,6 +1,5 @@
-﻿using BibliotecaPolimerizacaoEmEtapasDummy;
-using BibliotecaPolimerizacaoEmEtapasDummy.Recursos;
-using BibliotecaPolimerizacaoEmEtapasDummy.Ferramentas;
+﻿using BibliotecaPolimerizacaoEmEtapas;
+using BibliotecaPolimerizacaoEmEtapas.Recursos;
 using System;
 
 

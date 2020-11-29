@@ -1,8 +1,8 @@
-﻿using BibliotecaPolimerizacaoEmEtapasDummy.Recursos;
+﻿using BibliotecaPolimerizacaoEmEtapas.Recursos;
 using System;
 
 
-namespace BibliotecaPolimerizacaoEmEtapasDummy.Ferramentas
+namespace BibliotecaPolimerizacaoEmEtapas.Ferramentas
 {
     public class RelatorioConsole
     {

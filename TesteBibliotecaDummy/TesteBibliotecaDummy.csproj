@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BibliotecaPolimerizacaoEmEtapasDummy\BibliotecaPolimerizacaoEmEtapasDummy.csproj">
+    <ProjectReference Include="..\BibliotecaPolimerizacaoEmEtapasDummy\BibliotecaPolimerizacaoEmEtapas.csproj">
       <Project>{258e325f-0b09-457b-801d-14d6ac3b823e}</Project>
-      <Name>BibliotecaPolimerizacaoEmEtapasDummy</Name>
+      <Name>BibliotecaPolimerizacaoEmEtapas</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

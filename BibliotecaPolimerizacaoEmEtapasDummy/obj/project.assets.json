@@ -185,9 +185,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapasDummy.csproj",
-      "projectName": "BibliotecaPolimerizacaoEmEtapasDummy",
-      "projectPath": "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapasDummy.csproj",
+      "projectUniqueName": "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapas.csproj",
+      "projectName": "BibliotecaPolimerizacaoEmEtapas",
+      "projectPath": "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapas.csproj",
       "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
       "outputPath": "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapasDummy\\obj\\",
       "projectStyle": "PackageReference",

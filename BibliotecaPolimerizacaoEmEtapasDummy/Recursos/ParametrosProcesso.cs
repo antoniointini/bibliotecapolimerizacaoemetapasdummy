@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BibliotecaPolimerizacaoEmEtapasDummy.Recursos
+namespace BibliotecaPolimerizacaoEmEtapas.Recursos
 {
     public class ParametrosProcesso
     {
