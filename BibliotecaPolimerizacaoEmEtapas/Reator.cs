@@ -466,7 +466,7 @@ namespace BibliotecaPolimerizacaoEmEtapas
             logReator9.eA = 0.17000000000000012;
             logReator9.eB = 1.3589999999999998;
             logReator9.Conversion = 1 - logReator9.eA / 4.7930000000000454;
-            logReator9.Step = 9;
+            logReator9.Step = 10;
 
             List<LogReator> listaLogReator = new List<LogReator>();
 
@@ -481,7 +481,7 @@ namespace BibliotecaPolimerizacaoEmEtapas
             listaLogReator.Add(logReator8);
             listaLogReator.Add(logReator9);
 
-            ParametrosProcesso resultados_processo_externo = new ParametrosProcesso()
+            ParametrosProcesso processo = new ParametrosProcesso()
             {
                 AcidezEspecificada = 12,
                 AcidezGelCarothers = 0,
@@ -543,74 +543,40 @@ namespace BibliotecaPolimerizacaoEmEtapas
                 TeorDeOleo=55.8
             }; // Resultados dummy            
 
-            // Line Plot 1
-
+            //"Conversion": row 0 is "Step" (x axis), row 1 is "Conversion" (y1 axis) and row 2 is "Acid Number" (y2 axis); note that two Y axis are required.
             foreach (LogReator itemlog in listaLogReator)
             {
-                resultados_processo_externo.ConversionLinePlot.Step.Add(itemlog.Step); // x axis
-                resultados_processo_externo.ConversionLinePlot.Conversion.Add(itemlog.Conversion); // y1 axis
-                resultados_processo_externo.ConversionLinePlot.IndiceAcidez.Add(itemlog.Indice_Acidez); // y2 axis
+                processo.ConversionLinePlot.Step.Add(itemlog.Step); // x axis
+                processo.ConversionLinePlot.Conversion.Add(itemlog.Conversion); // y1 axis
+                processo.ConversionLinePlot.IndiceAcidez.Add(itemlog.Indice_Acidez); // y2 axis
             }
 
-            //double[,] conversionLinePlot = new double[3, 10];
-            //int contadorPlot = 0;
-            //foreach (LogReator itemlog in listaLogReator)
-            //{
-            //    conversionLinePlot[0, contadorPlot] = itemlog.Step; // x axis
-            //    conversionLinePlot[1, contadorPlot] = itemlog.Conversion; // y1 axis
-            //    conversionLinePlot[2, contadorPlot] = itemlog.Indice_Acidez; // y2 axis
-            //    contadorPlot++;            
-            //}
-
-            // Line Plot 2
-            double[,] MnLinePlot = new double[2, 10];
-            int contadorPlot = 0;
+            //"Mn": row 0 is "Step" (x axis) and row 1 is "Mn" (y axis)
             foreach (LogReator itemlog in listaLogReator)
             {
-                MnLinePlot[0, contadorPlot] = itemlog.Step; // x axis
-                MnLinePlot[1, contadorPlot] = itemlog.Mn; // y axis
-                contadorPlot++;
+                processo.MnLinePlot.Step.Add(itemlog.Step); // x axis
+                processo.MnLinePlot.Mn.Add(itemlog.Mn); // y axis
             }
 
-            // Line Plot 3
-            double[,] equivalentsLinePlot = new double[3, 10];
-            contadorPlot = 0;
+            //"Equivalents": row 0 is "Step" (x axis), row 1 is "eA" (y axis), row 2 is "eB" (y axis). Both can be plotted in the same Y axis
             foreach (LogReator itemlog in listaLogReator)
             {
-                equivalentsLinePlot[0, contadorPlot] = itemlog.Step; // x axis
-                equivalentsLinePlot[1, contadorPlot] = itemlog.eA; // y1 axis
-                equivalentsLinePlot[2, contadorPlot] = itemlog.eB; // y2 axis
-                contadorPlot++;
+                processo.EquivalentsLinePlot.Step.Add(itemlog.Step); // x axis
+                processo.EquivalentsLinePlot.EA.Add(itemlog.eA);
+                processo.EquivalentsLinePlot.EB.Add(itemlog.eB);
             }
 
-            // Line Plot 4
-            double[,] waterLinePlot = new double[2, 10];
-            contadorPlot = 0;
+            //"Water Off": row 0 is "Conversion"(x axis) and row 1 is "Water kg"(y axis)
             foreach (LogReator itemlog in listaLogReator)
             {
-                waterLinePlot[0, contadorPlot] = itemlog.Conversion; // x axis
-                waterLinePlot[1, contadorPlot] = itemlog.H20_reagida; // y axis
-                contadorPlot++;
+                processo.WaterLinePlot.Conversion.Add(itemlog.Conversion); // x axis
+                processo.WaterLinePlot.H2Oreagida.Add(itemlog.H20_reagida); // y axis
             }
 
-            // Bar Plot 
-            double[,] MndistBarPlot = new double[2, 10]
-            {
-                { 200, 420, 600, 810, 1000, 1205, 1380, 1500, 1720, 1990}, // x axis
-                {  1,   2,   4,   8,   12,   14,   11,    7,    5,    2 } // y axis
-            };
+            processo.MndistBarPlot.Mn = new List<double> {200, 420, 600, 810, 1000, 1205, 1380, 1500, 1720, 1990};
+            processo.MndistBarPlot.Mn = new List<double> { 1, 2, 4, 8, 12, 14, 11, 7, 5, 2 };
 
-            List<double[,]> PlotData = new List<double[,]>();
-            PlotData.Add(MnLinePlot);
-            PlotData.Add(equivalentsLinePlot);
-            PlotData.Add(waterLinePlot);
-            PlotData.Add(MndistBarPlot);
-
-            resultados_processo_externo.PlotsData = PlotData;
-
-            return resultados_processo_externo;
-
-
+            return processo;
         }
 
     }

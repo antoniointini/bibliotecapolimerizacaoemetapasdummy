@@ -16,3 +16,12 @@ C:\Reactor\polimerizacao em etapas dummy\BibliotecaPolimerizacaoEmEtapas\obj\Deb
 C:\Reactor\polimerizacao em etapas dummy\BibliotecaPolimerizacaoEmEtapas\obj\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.csproj.CoreCompileInputs.cache
 C:\Reactor\polimerizacao em etapas dummy\BibliotecaPolimerizacaoEmEtapas\obj\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.dll
 C:\Reactor\polimerizacao em etapas dummy\BibliotecaPolimerizacaoEmEtapas\obj\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.pdb
+C:\Reactor\polimerizacaoetapas\BibliotecaPolimerizacaoEmEtapas\obj\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.csprojAssemblyReference.cache
+C:\Reactor\polimerizacaoetapas\BibliotecaPolimerizacaoEmEtapas\obj\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.AssemblyInfoInputs.cache
+C:\Reactor\polimerizacaoetapas\BibliotecaPolimerizacaoEmEtapas\obj\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.AssemblyInfo.cs
+C:\Reactor\polimerizacaoetapas\BibliotecaPolimerizacaoEmEtapas\obj\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.csproj.CoreCompileInputs.cache
+C:\Reactor\polimerizacaoetapas\BibliotecaPolimerizacaoEmEtapas\obj\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.dll
+C:\Reactor\polimerizacaoetapas\BibliotecaPolimerizacaoEmEtapas\obj\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.pdb
+C:\Reactor\polimerizacaoetapas\BibliotecaPolimerizacaoEmEtapas\bin\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.deps.json
+C:\Reactor\polimerizacaoetapas\BibliotecaPolimerizacaoEmEtapas\bin\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.dll
+C:\Reactor\polimerizacaoetapas\BibliotecaPolimerizacaoEmEtapas\bin\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.pdb
