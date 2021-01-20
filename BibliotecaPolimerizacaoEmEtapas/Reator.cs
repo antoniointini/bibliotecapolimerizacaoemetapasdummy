@@ -544,19 +544,27 @@ namespace BibliotecaPolimerizacaoEmEtapas
             }; // Resultados dummy            
 
             // Line Plot 1
-            double[,] conversionLinePlot = new double[3, 10];
-            int contadorPlot = 0;
+
             foreach (LogReator itemlog in listaLogReator)
             {
-                conversionLinePlot[0, contadorPlot] = itemlog.Step; // x axis
-                conversionLinePlot[1, contadorPlot] = itemlog.Conversion; // y1 axis
-                conversionLinePlot[2, contadorPlot] = itemlog.Indice_Acidez; // y2 axis
-                contadorPlot++;            
+                resultados_processo_externo.ConversionLinePlot.Step.Add(itemlog.Step); // x axis
+                resultados_processo_externo.ConversionLinePlot.Conversion.Add(itemlog.Conversion); // y1 axis
+                resultados_processo_externo.ConversionLinePlot.IndiceAcidez.Add(itemlog.Indice_Acidez); // y2 axis
             }
+
+            //double[,] conversionLinePlot = new double[3, 10];
+            //int contadorPlot = 0;
+            //foreach (LogReator itemlog in listaLogReator)
+            //{
+            //    conversionLinePlot[0, contadorPlot] = itemlog.Step; // x axis
+            //    conversionLinePlot[1, contadorPlot] = itemlog.Conversion; // y1 axis
+            //    conversionLinePlot[2, contadorPlot] = itemlog.Indice_Acidez; // y2 axis
+            //    contadorPlot++;            
+            //}
 
             // Line Plot 2
             double[,] MnLinePlot = new double[2, 10];
-            contadorPlot = 0;
+            int contadorPlot = 0;
             foreach (LogReator itemlog in listaLogReator)
             {
                 MnLinePlot[0, contadorPlot] = itemlog.Step; // x axis
@@ -593,7 +601,6 @@ namespace BibliotecaPolimerizacaoEmEtapas
             };
 
             List<double[,]> PlotData = new List<double[,]>();
-            PlotData.Add(conversionLinePlot);
             PlotData.Add(MnLinePlot);
             PlotData.Add(equivalentsLinePlot);
             PlotData.Add(waterLinePlot);

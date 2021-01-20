@@ -66,8 +66,9 @@ namespace BibliotecaPolimerizacaoEmEtapas.Recursos
         public List<LogReator> LogReator { get; set; } = new List<LogReator>();
         public List<double[,]> PlotsData { get; set; }
         public ObjetivosOtimizacao ObjetivosOtimizacao { get; set; }
-        
-        
+        public ConversionLinePlot ConversionLinePlot { get; set; } = new ConversionLinePlot();
+
+
         public ParametrosProcesso()
         {
 

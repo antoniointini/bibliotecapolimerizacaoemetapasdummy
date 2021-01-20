@@ -7,3 +7,12 @@ C:\repos\BibliotecaPolimerizacaoEmEtapasDummy\BibliotecaPolimerizacaoEmEtapasDum
 C:\repos\BibliotecaPolimerizacaoEmEtapasDummy\BibliotecaPolimerizacaoEmEtapasDummy\obj\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.csproj.CoreCompileInputs.cache
 C:\repos\BibliotecaPolimerizacaoEmEtapasDummy\BibliotecaPolimerizacaoEmEtapasDummy\obj\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.dll
 C:\repos\BibliotecaPolimerizacaoEmEtapasDummy\BibliotecaPolimerizacaoEmEtapasDummy\obj\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.pdb
+C:\Reactor\polimerizacao em etapas dummy\BibliotecaPolimerizacaoEmEtapas\bin\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.deps.json
+C:\Reactor\polimerizacao em etapas dummy\BibliotecaPolimerizacaoEmEtapas\bin\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.dll
+C:\Reactor\polimerizacao em etapas dummy\BibliotecaPolimerizacaoEmEtapas\bin\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.pdb
+C:\Reactor\polimerizacao em etapas dummy\BibliotecaPolimerizacaoEmEtapas\obj\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.csprojAssemblyReference.cache
+C:\Reactor\polimerizacao em etapas dummy\BibliotecaPolimerizacaoEmEtapas\obj\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.AssemblyInfoInputs.cache
+C:\Reactor\polimerizacao em etapas dummy\BibliotecaPolimerizacaoEmEtapas\obj\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.AssemblyInfo.cs
+C:\Reactor\polimerizacao em etapas dummy\BibliotecaPolimerizacaoEmEtapas\obj\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.csproj.CoreCompileInputs.cache
+C:\Reactor\polimerizacao em etapas dummy\BibliotecaPolimerizacaoEmEtapas\obj\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.dll
+C:\Reactor\polimerizacao em etapas dummy\BibliotecaPolimerizacaoEmEtapas\obj\Debug\netstandard2.0\BibliotecaPolimerizacaoEmEtapas.pdb
