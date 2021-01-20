@@ -574,7 +574,7 @@ namespace BibliotecaPolimerizacaoEmEtapas
             }
 
             processo.MndistBarPlot.Mn = new List<double> {200, 420, 600, 810, 1000, 1205, 1380, 1500, 1720, 1990};
-            processo.MndistBarPlot.Mn = new List<double> { 1, 2, 4, 8, 12, 14, 11, 7, 5, 2 };
+            processo.MndistBarPlot.Frequency = new List<double> { 1, 2, 4, 8, 12, 14, 11, 7, 5, 2 };
 
             return processo;
         }
