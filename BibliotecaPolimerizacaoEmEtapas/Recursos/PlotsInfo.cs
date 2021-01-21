@@ -26,7 +26,7 @@ namespace BibliotecaPolimerizacaoEmEtapas.Recursos
     public class WaterLinePlot
     {
         public List<double> Conversion { get; set; } = new List<double>();
-        public List<double> H2Oreagida { get; set; } = new List<double>();
+        public List<double> H2oreagida { get; set; } = new List<double>();
     }
 
     public class MndistBarPlot

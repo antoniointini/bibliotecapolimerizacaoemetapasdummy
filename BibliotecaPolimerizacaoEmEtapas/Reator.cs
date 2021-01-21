@@ -570,7 +570,7 @@ namespace BibliotecaPolimerizacaoEmEtapas
             foreach (LogReator itemlog in listaLogReator)
             {
                 processo.WaterLinePlot.Conversion.Add(itemlog.Conversion); // x axis
-                processo.WaterLinePlot.H2Oreagida.Add(itemlog.H20_reagida); // y axis
+                processo.WaterLinePlot.H2oreagida.Add(itemlog.H20_reagida); // y axis
             }
 
             processo.MndistBarPlot.Mn = new List<double> {200, 420, 600, 810, 1000, 1205, 1380, 1500, 1720, 1990};

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "aDKzwED4diir4G0Wq9jLy8vvwJ+2XByvsjH1s5lIdTe4Tmtb+ZMHw25+QZTl/GAk9vx+UookkqJqXHpoi+Ux8g==",
+  "dgSpecHash": "4LeUpOJveH1vRPD9PMk1DQYPRYxtzwRWYGwFs5wLY4kfUzNt3eGbTbemmtYnhCKABjQpAyok0Y2ZatxOwU3rSQ==",
   "success": true,
   "projectFilePath": "C:\\Reactor\\polimerizacaoetapas\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Pesse\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Pesse\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Marcelo Pesse\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Marcelo Pesse\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
