@@ -11,8 +11,8 @@ namespace TesteBibliotecaDummy
         {
             // Simulation of the calculation
 
-            ParametrosProcesso fichaProcesso = new ParametrosProcesso(); // simulating objected received from the front end
-            ParametrosProcesso resultados_processo_externo = Reator.IniciarReacao(fichaProcesso); // The front end pass fichaProcesso and get in return the object resultados_processo_externo
+            ParametrosProcesso processo = new ParametrosProcesso(); // simulating objected received from the front end
+            processo = Reator.IniciarReacao(processo); // The front end pass fichaProcesso and get in return the object resultados_processo_externo
 
             // Uncomment the line below if you want to see the report; for implementation in the front end, this code must be commented / removed
             //RelatorioConsole.ImprimirResultados(resultados_processo_externo);

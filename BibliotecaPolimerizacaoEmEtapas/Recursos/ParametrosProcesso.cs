@@ -64,10 +64,12 @@ namespace BibliotecaPolimerizacaoEmEtapas.Recursos
         public double AcidezGelCarothers { get; set; }
         public List<Molecula> Formula { get; set; } = new List<Molecula>();
         public List<LogReator> LogReator { get; set; } = new List<LogReator>();
-        public List<double[,]> PlotsData { get; set; }
         public ObjetivosOtimizacao ObjetivosOtimizacao { get; set; }
-        
-        
+        public ConversionLinePlot ConversionLinePlot { get; set; } = new ConversionLinePlot();
+        public MnLinePlot MnLinePlot { get; set; } = new MnLinePlot();
+        public EquivalentsLinePlot EquivalentsLinePlot { get; set; } = new EquivalentsLinePlot();
+        public WaterLinePlot WaterLinePlot { get; set; } = new WaterLinePlot();
+        public MndistBarPlot MndistBarPlot { get; set; } = new MndistBarPlot();
         public ParametrosProcesso()
         {
 

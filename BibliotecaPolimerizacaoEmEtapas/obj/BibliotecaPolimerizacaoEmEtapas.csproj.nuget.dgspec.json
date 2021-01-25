@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj": {}
+    "C:\\Reactor\\polimerizacaoetapas\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj": {}
   },
   "projects": {
-    "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj": {
+    "C:\\Reactor\\polimerizacaoetapas\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj",
+        "projectUniqueName": "C:\\Reactor\\polimerizacaoetapas\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj",
         "projectName": "BibliotecaPolimerizacaoEmEtapas",
-        "projectPath": "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj",
-        "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\BibliotecaPolimerizacaoEmEtapasDummy\\BibliotecaPolimerizacaoEmEtapas\\obj\\",
+        "projectPath": "C:\\Reactor\\polimerizacaoetapas\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj",
+        "packagesPath": "C:\\Users\\Marcelo Pesse\\.nuget\\packages\\",
+        "outputPath": "C:\\Reactor\\polimerizacaoetapas\\BibliotecaPolimerizacaoEmEtapas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marcelo Pesse\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

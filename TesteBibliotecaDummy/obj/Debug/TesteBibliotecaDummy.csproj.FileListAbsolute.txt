@@ -8,3 +8,23 @@ C:\repos\BibliotecaPolimerizacaoEmEtapasDummy\TesteBibliotecaDummy\obj\Debug\Tes
 C:\repos\BibliotecaPolimerizacaoEmEtapasDummy\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDummy.pdb
 C:\repos\BibliotecaPolimerizacaoEmEtapasDummy\TesteBibliotecaDummy\bin\Debug\BibliotecaPolimerizacaoEmEtapas.dll
 C:\repos\BibliotecaPolimerizacaoEmEtapasDummy\TesteBibliotecaDummy\bin\Debug\BibliotecaPolimerizacaoEmEtapas.pdb
+C:\Reactor\polimerizacao em etapas dummy\TesteBibliotecaDummy\bin\Debug\TesteBibliotecaDummy.exe.config
+C:\Reactor\polimerizacao em etapas dummy\TesteBibliotecaDummy\bin\Debug\TesteBibliotecaDummy.exe
+C:\Reactor\polimerizacao em etapas dummy\TesteBibliotecaDummy\bin\Debug\TesteBibliotecaDummy.pdb
+C:\Reactor\polimerizacao em etapas dummy\TesteBibliotecaDummy\bin\Debug\BibliotecaPolimerizacaoEmEtapas.dll
+C:\Reactor\polimerizacao em etapas dummy\TesteBibliotecaDummy\bin\Debug\BibliotecaPolimerizacaoEmEtapas.pdb
+C:\Reactor\polimerizacao em etapas dummy\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDummy.csprojAssemblyReference.cache
+C:\Reactor\polimerizacao em etapas dummy\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDummy.csproj.CoreCompileInputs.cache
+C:\Reactor\polimerizacao em etapas dummy\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDummy.csproj.CopyComplete
+C:\Reactor\polimerizacao em etapas dummy\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDummy.exe
+C:\Reactor\polimerizacao em etapas dummy\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDummy.pdb
+C:\Reactor\polimerizacaoetapas\TesteBibliotecaDummy\bin\Debug\TesteBibliotecaDummy.exe.config
+C:\Reactor\polimerizacaoetapas\TesteBibliotecaDummy\bin\Debug\TesteBibliotecaDummy.exe
+C:\Reactor\polimerizacaoetapas\TesteBibliotecaDummy\bin\Debug\TesteBibliotecaDummy.pdb
+C:\Reactor\polimerizacaoetapas\TesteBibliotecaDummy\bin\Debug\BibliotecaPolimerizacaoEmEtapas.dll
+C:\Reactor\polimerizacaoetapas\TesteBibliotecaDummy\bin\Debug\BibliotecaPolimerizacaoEmEtapas.pdb
+C:\Reactor\polimerizacaoetapas\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDummy.csprojAssemblyReference.cache
+C:\Reactor\polimerizacaoetapas\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDummy.csproj.CoreCompileInputs.cache
+C:\Reactor\polimerizacaoetapas\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDummy.csproj.CopyComplete
+C:\Reactor\polimerizacaoetapas\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDummy.exe
+C:\Reactor\polimerizacaoetapas\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDummy.pdb
