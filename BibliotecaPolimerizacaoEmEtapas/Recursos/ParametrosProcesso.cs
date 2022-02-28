@@ -10,6 +10,8 @@ namespace BibliotecaPolimerizacaoEmEtapas.Recursos
         public double PassoReacao { get; set; } = 0.001;
         public static bool MACheck { get; set; }
         public bool Otimizacao { get; set; }
+        public double optimizationValue { get; set; }
+        public bool CalculoDielsAlder { get; set; }
         public bool ChuteInicial { get; set; } = true;
         public double FatorNormalizacao { get; set; }
         public double SomaMoles { get; set; }
@@ -65,11 +67,7 @@ namespace BibliotecaPolimerizacaoEmEtapas.Recursos
         public List<Molecula> Formula { get; set; } = new List<Molecula>();
         public List<LogReator> LogReator { get; set; } = new List<LogReator>();
         public ObjetivosOtimizacao ObjetivosOtimizacao { get; set; }
-        public ConversionLinePlot ConversionLinePlot { get; set; } = new ConversionLinePlot();
-        public MnLinePlot MnLinePlot { get; set; } = new MnLinePlot();
-        public EquivalentsLinePlot EquivalentsLinePlot { get; set; } = new EquivalentsLinePlot();
-        public WaterLinePlot WaterLinePlot { get; set; } = new WaterLinePlot();
-        public MndistBarPlot MndistBarPlot { get; set; } = new MndistBarPlot();
+        public Graficos Graficos { get; set; } = new Graficos();
         public ParametrosProcesso()
         {
 

@@ -15,12 +15,11 @@ namespace BibliotecaPolimerizacaoEmEtapas.Recursos
         public List<double> Mn { get; set; } = new List<double>();
     }
 
-    public class EquivalentsLinePlot 
+    public class EquivalentsLinePlot
     {
         public List<double> Step { get; set; } = new List<double>();
         public List<double> EA { get; set; } = new List<double>();
         public List<double> EB { get; set; } = new List<double>();
-
     }
 
     public class WaterLinePlot
@@ -31,7 +30,13 @@ namespace BibliotecaPolimerizacaoEmEtapas.Recursos
 
     public class MndistBarPlot
     {
-        public List<double> Mn { get; set; } = new List<double>();
+        public List<double> CategoriaMn { get; set; } = new List<double>();
         public List<double> Frequency { get; set; } = new List<double>();
+    }
+
+    public class XmerdistBarPlot
+    {
+        public List<double> CategoriaXMer { get; set; } = new List<double>();
+        public List<double> FrequencyXMer { get; set; } = new List<double>();
     }
 }

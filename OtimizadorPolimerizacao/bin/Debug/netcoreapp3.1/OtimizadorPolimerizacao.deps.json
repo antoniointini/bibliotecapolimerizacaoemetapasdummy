@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "OtimizadorPolimerizacao/1.0.0": {
+        "dependencies": {
+          "BibliotecaPolimerizacaoEmEtapas": "1.0.0"
+        },
+        "runtime": {
+          "OtimizadorPolimerizacao.dll": {}
+        }
+      },
+      "BibliotecaPolimerizacaoEmEtapas/1.0.0": {
+        "runtime": {
+          "BibliotecaPolimerizacaoEmEtapas.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OtimizadorPolimerizacao/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliotecaPolimerizacaoEmEtapas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

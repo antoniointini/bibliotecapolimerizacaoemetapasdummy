@@ -11,6 +11,12 @@ namespace BibliotecaPolimerizacaoEmEtapas
         public static int IdProximaMolecula { get; set; }
         public string Nome_da_Molecula { get; set; }
         public bool Oleo_check { get; set; }
+        public bool PET_check { get; set; }
+        public double Renovaveis { get; set; }
+        public bool Fixo_Otimizacao { get; set; }
+        public double Ajuste_Constante_K { get; set; }
+        public double[,] ContribuicaodeGrupos { get; set; }
+        public bool Anidrido_check { get; set; }
         public bool Acido_graxo_check { get; set; }
         public bool FA_derivado_oleo_check { get; set; }
         public int Unidades_monomero { get; set; }
@@ -57,11 +63,15 @@ namespace BibliotecaPolimerizacaoEmEtapas
         public double Custo_por_kg { get; set; }
         public bool Fixo_Otimização { get; set; }
         public bool Monomero { get; set; }
+        public string ID_BancoDados { get; set; }
+        public double TgAnaliticoKelvin { get; set; }
+        public double YG_Monomero { get; set; }
+        public string status { get; set; }
+        public bool materialOptimization { get; set; }
 
-
-        public Molecula()
+        public object Clone()
         {
-
+            return MemberwiseClone();
         }
 
     }

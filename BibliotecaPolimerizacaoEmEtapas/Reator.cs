@@ -1,7 +1,7 @@
-﻿
+﻿using System.Collections.Generic;
 using BibliotecaPolimerizacaoEmEtapas;
 using BibliotecaPolimerizacaoEmEtapas.Recursos;
-using System.Collections.Generic;
+using System;
 
 namespace BibliotecaPolimerizacaoEmEtapas
 {
@@ -530,7 +530,7 @@ namespace BibliotecaPolimerizacaoEmEtapas
                 MolesTotalInicial= 5.0000000000000009,
                 Mw= 21942,
                 MwReator = 21941.99,
-                ObjetivosOtimizacao=null,
+                ObjetivosOtimizacao=new ObjetivosOtimizacao(),
                 Otimizacao=false,
                 PassoReacao=0.001,
                 Pd=10.4,
@@ -540,41 +540,47 @@ namespace BibliotecaPolimerizacaoEmEtapas
                 SomanM=0,
                 SomanMsqr=0,
                 TempoDecorrido=1995,
-                TeorDeOleo=55.8
+                TeorDeOleo=55.8,
             }; // Resultados dummy            
 
             //"Conversion": row 0 is "Step" (x axis), row 1 is "Conversion" (y1 axis) and row 2 is "Acid Number" (y2 axis); note that two Y axis are required.
             foreach (LogReator itemlog in listaLogReator)
             {
-                processo.ConversionLinePlot.Step.Add(itemlog.Step); // x axis
-                processo.ConversionLinePlot.Conversion.Add(itemlog.Conversion); // y1 axis
-                processo.ConversionLinePlot.IndiceAcidez.Add(itemlog.Indice_Acidez); // y2 axis
+                processo.Graficos.ConversionLinePlot.Step.Add(itemlog.Step); // x axis
+                processo.Graficos.ConversionLinePlot.Conversion.Add(itemlog.Conversion); // y1 axis
+                processo.Graficos.ConversionLinePlot.IndiceAcidez.Add(itemlog.Indice_Acidez); // y2 axis
             }
 
             //"Mn": row 0 is "Step" (x axis) and row 1 is "Mn" (y axis)
             foreach (LogReator itemlog in listaLogReator)
             {
-                processo.MnLinePlot.Step.Add(itemlog.Step); // x axis
-                processo.MnLinePlot.Mn.Add(itemlog.Mn); // y axis
+                processo.Graficos.MnLinePlot.Step.Add(itemlog.Step); // x axis
+                processo.Graficos.MnLinePlot.Mn.Add(itemlog.Mn); // y axis
             }
 
             //"Equivalents": row 0 is "Step" (x axis), row 1 is "eA" (y axis), row 2 is "eB" (y axis). Both can be plotted in the same Y axis
             foreach (LogReator itemlog in listaLogReator)
             {
-                processo.EquivalentsLinePlot.Step.Add(itemlog.Step); // x axis
-                processo.EquivalentsLinePlot.EA.Add(itemlog.eA);
-                processo.EquivalentsLinePlot.EB.Add(itemlog.eB);
+                processo.Graficos.EquivalentsLinePlot.Step.Add(itemlog.Step); // x axis
+                processo.Graficos.EquivalentsLinePlot.EA.Add(itemlog.eA);
+                processo.Graficos.EquivalentsLinePlot.EB.Add(itemlog.eB);
             }
 
             //"Water Off": row 0 is "Conversion"(x axis) and row 1 is "Water kg"(y axis)
             foreach (LogReator itemlog in listaLogReator)
             {
-                processo.WaterLinePlot.Conversion.Add(itemlog.Conversion); // x axis
-                processo.WaterLinePlot.H2oreagida.Add(itemlog.H20_reagida); // y axis
+                processo.Graficos.WaterLinePlot.Conversion.Add(itemlog.Conversion); // x axis
+                processo.Graficos.WaterLinePlot.H2oreagida.Add(itemlog.H20_reagida); // y axis
             }
 
-            processo.MndistBarPlot.Mn = new List<double> {200, 420, 600, 810, 1000, 1205, 1380, 1500, 1720, 1990};
-            processo.MndistBarPlot.Frequency = new List<double> { 1, 2, 4, 8, 12, 14, 11, 7, 5, 2 };
+
+
+
+            fichaProcesso.Graficos.MndistBarPlot.CategoriaMn = new List<double> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }; // eixo X
+            fichaProcesso.Graficos.MndistBarPlot.Frequency = new List<double> { 90, 80, 70, 60, 50, 40, 30, 20, 10, 0 }; // eixo y
+
+            processo.Graficos.XmerdistBarPlot.CategoriaXMer = new List<double> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            processo.Graficos.XmerdistBarPlot.FrequencyXMer = new List<double> { 90, 80, 70, 60, 50, 40, 30, 20, 10, 0 };
 
             return processo;
         }

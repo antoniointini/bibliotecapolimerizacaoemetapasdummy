@@ -1,0 +1,12 @@
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\OtimizadorPolimerizacao\obj\Debug\netcoreapp3.1\OtimizadorPolimerizacao.csprojAssemblyReference.cache
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\OtimizadorPolimerizacao\obj\Debug\netcoreapp3.1\OtimizadorPolimerizacao.AssemblyInfoInputs.cache
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\OtimizadorPolimerizacao\obj\Debug\netcoreapp3.1\OtimizadorPolimerizacao.AssemblyInfo.cs
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\OtimizadorPolimerizacao\obj\Debug\netcoreapp3.1\OtimizadorPolimerizacao.csproj.CoreCompileInputs.cache
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\OtimizadorPolimerizacao\bin\Debug\netcoreapp3.1\OtimizadorPolimerizacao.deps.json
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\OtimizadorPolimerizacao\bin\Debug\netcoreapp3.1\OtimizadorPolimerizacao.dll
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\OtimizadorPolimerizacao\bin\Debug\netcoreapp3.1\OtimizadorPolimerizacao.pdb
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\OtimizadorPolimerizacao\bin\Debug\netcoreapp3.1\BibliotecaPolimerizacaoEmEtapas.dll
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\OtimizadorPolimerizacao\bin\Debug\netcoreapp3.1\BibliotecaPolimerizacaoEmEtapas.pdb
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\OtimizadorPolimerizacao\obj\Debug\netcoreapp3.1\OtimizadorPolimerizacao.csproj.CopyComplete
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\OtimizadorPolimerizacao\obj\Debug\netcoreapp3.1\OtimizadorPolimerizacao.dll
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\OtimizadorPolimerizacao\obj\Debug\netcoreapp3.1\OtimizadorPolimerizacao.pdb

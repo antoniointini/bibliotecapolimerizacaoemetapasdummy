@@ -1,9 +1,12 @@
-﻿namespace BibliotecaPolimerizacaoEmEtapas.Recursos
+﻿using System.Collections.Generic;
+namespace BibliotecaPolimerizacaoEmEtapas.Recursos
 {
     public class ObjetivosOtimizacao
     {
         public TipoOtimizacao MetodoCalculoOtimizacao { get; set; } // define se deve ser usado método analítico ou estocástico
-
+        public bool NaoOtimizou { get; set; } = false;
+        //Restrição de materiais:
+        public List<RestricaoMaterial> materialrestriction { get; set; } = new List<RestricaoMaterial>();
         // Seleção da Opção de Otimização:
         public Selecao COOHEqWt100Solidos { get; set; }
         public Selecao CustoPorKg { get; set; }

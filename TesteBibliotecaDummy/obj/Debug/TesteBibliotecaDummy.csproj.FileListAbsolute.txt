@@ -28,3 +28,13 @@ C:\Reactor\polimerizacaoetapas\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDum
 C:\Reactor\polimerizacaoetapas\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDummy.csproj.CopyComplete
 C:\Reactor\polimerizacaoetapas\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDummy.exe
 C:\Reactor\polimerizacaoetapas\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDummy.pdb
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\TesteBibliotecaDummy\bin\Debug\TesteBibliotecaDummy.exe.config
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\TesteBibliotecaDummy\bin\Debug\TesteBibliotecaDummy.exe
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\TesteBibliotecaDummy\bin\Debug\TesteBibliotecaDummy.pdb
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\TesteBibliotecaDummy\bin\Debug\BibliotecaPolimerizacaoEmEtapas.dll
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\TesteBibliotecaDummy\bin\Debug\BibliotecaPolimerizacaoEmEtapas.pdb
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDummy.csprojAssemblyReference.cache
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDummy.csproj.CoreCompileInputs.cache
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDummy.csproj.CopyComplete
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDummy.exe
+C:\Users\gusta\bibliotecapolimerizacaoemetapasdummy\TesteBibliotecaDummy\obj\Debug\TesteBibliotecaDummy.pdb
