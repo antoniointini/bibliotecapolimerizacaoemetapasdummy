@@ -19,7 +19,7 @@ namespace BibliotecaPolimerizacaoEmEtapas.Recursos
             var numeroDeFormulasOtimas = 5;
             if (numeroDeFormulasOtimas > 4)
             {
-                numeroDeFormulasOtimas = 4;
+                numeroDeFormulasOtimas = 10;
             }
             for (int k = 0; k < numeroDeFormulasOtimas; k++)
             {
