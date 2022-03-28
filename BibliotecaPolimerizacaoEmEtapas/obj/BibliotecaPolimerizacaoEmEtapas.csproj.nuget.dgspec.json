@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gusta\\bibliotecapolimerizacaoemetapasdummy\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj": {}
+    "C:\\Users\\gusta\\BibliotecaPolimerizacaoEmEtapasdummy\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gusta\\bibliotecapolimerizacaoemetapasdummy\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj": {
+    "C:\\Users\\gusta\\BibliotecaPolimerizacaoEmEtapasdummy\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusta\\bibliotecapolimerizacaoemetapasdummy\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj",
+        "projectUniqueName": "C:\\Users\\gusta\\BibliotecaPolimerizacaoEmEtapasdummy\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj",
         "projectName": "BibliotecaPolimerizacaoEmEtapas",
-        "projectPath": "C:\\Users\\gusta\\bibliotecapolimerizacaoemetapasdummy\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj",
+        "projectPath": "C:\\Users\\gusta\\BibliotecaPolimerizacaoEmEtapasdummy\\BibliotecaPolimerizacaoEmEtapas\\BibliotecaPolimerizacaoEmEtapas.csproj",
         "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusta\\bibliotecapolimerizacaoemetapasdummy\\BibliotecaPolimerizacaoEmEtapas\\obj\\",
+        "outputPath": "C:\\Users\\gusta\\BibliotecaPolimerizacaoEmEtapasdummy\\BibliotecaPolimerizacaoEmEtapas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",

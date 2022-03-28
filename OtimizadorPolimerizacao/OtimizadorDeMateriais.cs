@@ -12,8 +12,8 @@ namespace BibliotecaPolimerizacaoEmEtapas.Recursos
     {
         public static List<ParametrosProcesso> OtimizarMaterial(ParametrosProcesso fichaProcesso, List<Molecula> Materiais)
         {
-
-
+            var a = 2;
+            System.Threading.Thread.Sleep(600000);
             List<ParametrosProcesso> formulasOtimas = new List<ParametrosProcesso>();
 
             var numeroDeFormulasOtimas = 5;
